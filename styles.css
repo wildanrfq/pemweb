@@ -1,0 +1,21 @@
+.daftar-mhs {
+    padding-left: 270px;
+}
+
+label {
+    padding-left: 2px;
+    font-weight: normal;
+}
+.table-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-dark th,
+.table-dark td {
+    border-color: #454d55;
+}
+
+.separator {
+    background-color: gray;
+}
