@@ -1,0 +1,113 @@
+body {
+    background: #1A1A1A;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    background: radial-gradient(circle, #5F30F8, #FC8867, transparent 90%);
+    border-radius: 50%;
+    bottom: -300px;
+    content: "";
+    filter: blur(100px);
+    height: 750px;
+    position: fixed;
+    right: -300px;
+    width: 750px;
+    z-index: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.avatar-area {
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #2d272a;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button:hover {
+    background-color: rgba(43, 39, 41, 0.7);
+}
+
+.button-area {
+    display: flex;
+    gap: 12px;
+    padding-left: 70rem;
+    position: fixed;
+}
+
+.button-area svg {
+    width: 20px;
+}
+
+.card {
+    background-color: rgba(33, 33, 33, 0.6);
+    border-radius: 5%;
+    color: white;
+    height: 33rem;
+    padding: 25px;
+}
+
+.card-area {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding-left: 100px;
+    padding-top: 250px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    text-align: center;
+    width: 235rem;
+}
+
+.card-area::-webkit-scrollbar {
+    display: none;
+}
+
+.card-text {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.slogan {
+    color: gray;
+}
+
+.title {
+    background-clip: text;
+    background-image: linear-gradient(to right, #5F30F8, #FC8867 60%);
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-area {
+    padding-left: 150px;
+    padding-top: 90px;
+    position: fixed;
+}
+
+.user-area {
+    padding-top: 20px;
+}
+
+.user-job {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.user-name {
+    font-weight: bold;
+}
