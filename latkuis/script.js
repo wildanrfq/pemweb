@@ -1,13 +1,6 @@
-function navigateLeft() {
+function navigate(direction) {
     window.scrollBy({
-        left: 300,
-        behavior: 'smooth',
-    })
-}
-
-function navigateRight() {
-    window.scrollBy({
-        left: -300,
+        left: direction === "left" ? 300 : -300,
         behavior: 'smooth',
     })
 }
