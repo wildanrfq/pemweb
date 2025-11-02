@@ -17,7 +17,7 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
-                <li class="active"><a href="#">Tambah Mahasiswa</a></li>
+                <li><a href="#">Tambah Mahasiswa</a></li>
             </ul>
         </div>
     </nav>
@@ -30,10 +30,10 @@
             <form action="logic/update.php" method="post">
                 <input type="hidden" name="nim_lama" value="<?= $_GET['nim'] ?>">
                 <p>NIM</p>
-                <input name="nim" value="<?= $_GET['nim']?>" type="text" class="col-xs-10">
+                <input name="nim" placeholder="Masukkan NIM mahasiswa" value="<?= $_GET['nim']?>" type="text" class="col-xs-10">
                 <br><br>
                 <p>Nama</p>
-                <input name="nama" value="<?= $_GET['nama']?>"type="text" class="col-xs-10">
+                <input name="nama" placeholder="Masukkan nama mahasiswa" value="<?= $_GET['nama']?>"type="text" class="col-xs-10">
                 <br><br>
                 <p>Jenis Kelamin</p>
                 <div class="custom-control custom-radio">
